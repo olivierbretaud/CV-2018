@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" href="images/favicon.png"/>
+<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" /><![endif]-->
+
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+  <script type="text/javascript" src="https://raw.github.com/LeaVerou/prefixfree/master/prefixfree.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <meta name="viewport" content="height=device-height, initial-scale=1.0">
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+</script>
+
+  <title>olivierbretaud.info</title>
+</head>
+
+<body>
+
+<!--début du header-->
+
+<header>
+<div id="volet_clos">
+
+<div id="volet">
+
+  <ul>
+
+    <li><div class="bouton_menu"><a class="js-scrollTo" href="#main"><div class="picto_main"></div><p>Qui suis-je</p></a></div></li>
+    <li><div class="bouton_menu"><a class="js-scrollTo" href="#skills"><div class="picto_skills"></div><p>Mes compétences</p></a></div></li>
+    <li><div class="bouton_menu"><a class="js-scrollTo" href="#expe"><div class="picto_expe"></div><p>Mon expérience</p></a></div></li>
+    <li><div class="bouton_menu"><a class="js-scrollTo" href="#formation"><div class="picto_formation"></div>Mes études</a></div></li>
+    <li><div class="bouton_menu"><a class="js-scrollTo" href="#contact"><div class="picto_contact"></div>Contactez-moi</a></div></li>
+
+  </ul>
+
+
+  <a href="#volet" class="ouvrir"><div id="burger-bouton">MENU</div></a>
+  <a href="#volet_clos" class="fermer"><div id="burger-fermer">FERMER LE MENU</div></a>
+
+</div>
+
+</div>
+
+</header>
+<!--fin du header-->
+
+<div id="main">
+<!--ma photo et le texte d'accueil-->
+
+  <figure>
+    <img src="images/photo-cv.png" alt="photo-cv" class="photo-cv" />
+    <figcaption>Bienvenue sur mon site,<br/>
+      je m’appelle Olivier BRETAUD
+  </figcaption>
+
+</figure>
+<!--fin du topo-->
+
+
+<!--un bref qui suis-je-->
+
+<div class="whoiam">
+
+<!--la liste de 4 blocs-->
+  <div class="whoiam-list">
+      <div class="picto-loupe"></div>
+      <h2>Qui suis-je ?</h2><br/>
+      <h3>J’ai 33 ans<br/>
+      je suis créatif,<br/> rigoureux, sociable<br/>
+       et curieux <br/>
+    </h3>
+  </div>
+
+  <div class="whoiam-list">
+      <div class="picto-fleche"></div>
+      <h2>Mon objectif</h2><br/>
+      <h3>Après un parcours professionnel<br/>
+        dans les industries graphiques,<br/>
+        je souhaite m’orienter<br/>
+        vers le développement web.
+    </h3>
+  </div>
+
+  <div class="whoiam-list">
+      <div class="picto-langues"></div>
+      <h2>Langues</h2><br/>
+      <h3>Français (langue maternelle)<br/>
+      Anglais (bonne connaissance)<br/>
+     Espagnol (niveau élémentaire)
+    </h3>
+  </div>
+
+  <div class="whoiam-list">
+      <div class="picto-hobbies"></div>
+      <h2>Centres d'intérêts</h2><br/>
+      <h3>randonnée, voyage<br/>
+        photographie, musique,<br/>
+        les technologies du web : <br/>
+        HTML5, CSS3, JavaScript,<br/>PHP7, MySQL...
+    </h3>
+  </div>
+<!--fin la liste de 4 blocs-->
+
+</div>
+
+</div>
+
+
+<!--fin d'un bref qui suis-je-->
+
+<div class="container">
+
+<!--section principale-->
+
+<!--section compétences.... j'espère bien en ajouter plein d'autres...-->
+<section id="skills">
+
+
+  <div class="title-box">
+    <div class="picto-skills"></div>
+    <h1>Mes compétences</h1>
+  </div>
+
+
+  <div class="text-box">
+
+  <div class="skills_app">
+
+    <div class="skills_list">
+    <h2>HTML5</h2>
+    <div class="jauge_barre"><div class="html"></div></div>
+    </div>
+
+    <div class="skills_list">
+    <h2>CSS3</h2>
+    <div class="jauge_barre"><div class="css"></div></div>
+    </div>
+
+
+
+    <div class="skills_list">
+    <h2>PHOTOSHOP</h2>
+    <div class="jauge_barre"><div class="photo"></div></div>
+    </div>
+
+    <div class="skills_list">
+    <h2>ILLUSTRATOR</h2>
+    <div class="jauge_barre"><div class="ill"></div></div>
+    </div>
+
+    <div class="skills_list">
+    <h2>INDESIGN</h2>
+    <div class="jauge_barre"><div class="ind"></div></div>
+    </div>
+
+
+
+    <div class="skills_list">
+    <h2>MS OFFICE</h2>
+    <div class="jauge_barre"><div class="office"></div></div>
+    </div>
+
+
+  </div>
+
+</div>
+
+
+</section>
+<!--fin de section compétences.... j'espère bien en ajouter plein d'autres...-->
+
+
+<!--section exepériences-->
+<section id="expe">
+
+
+  <div class="title-box-expe">
+    <div class="picto-expe"></div>
+    <h1>Mon expérience</h1>
+  </div>
+
+
+  <div class="text-box-expe">
+
+   <div class="expe-text">
+     <h4>2013-2017</h4>
+     <h2>NEWWORKS</h2>
+     <h3>Genève (Suisse)<br>
+     Opérateur en impression numérique</h3>
+     <br>
+   </div>
+
+   <div class="expe-text">
+     <h4>2007-2013</h4>
+     <h2>IMPRIMERIE GRAND LARGE<br> & ÉDITIONS OPÉRA</h2>
+     <h3>Haute-Goulaine (44)<br>
+     Opérateur en impression numérique</h3>
+     <br>
+   </div>
+
+   <div class="expe-text">
+     <h4>JUILLET 2006</h4>
+     <h2>GULFSTREAM<br>COMMUNICATION</h2>
+     <h3>Nantes (44)<br>
+      Graphiste stagiaire</h3>
+     <br>
+   </div>
+
+   <div class="expe-text">
+     <h4>MAI 2004</h4>
+     <h2>GULFSTREAM<br>COMMUNICATION</h2>
+     <h3>Nantes (44)<br>
+      Graphiste stagiaire</h3>
+     <br>
+   </div>
+
+   <div class="expe-text">
+     <h4>MARS 2004</h4>
+     <h2>TMC</h2>
+     <h3>Nantes (44)<br>
+     Graphiste stagiaire</h3>
+     <br>
+   </div>
+
+
+ </div>
+
+
+
+</section>
+
+<section id="formation">
+
+
+  <div class="title-box-expe">
+    <div class="picto-formation"></div>
+    <h1>Mes études</h1>
+  </div>
+
+
+  <div class="text-box-expe">
+
+   <div class="expe-text">
+     <h4>2006-2007</h4>
+     <h2>FCIL Opérateur<br/>
+       en impression numérique<br/>
+       et reprographie</h2>
+     <h3>l’École du Livre - Nantes</h3>
+     <br>
+   </div>
+
+   <div class="expe-text">
+     <h4>2004-2006</h4>
+     <h2>BTS<br/>
+       Communication Visuelle<br/>
+     option multimédia</h2>
+     <h3>Lycée Le Paraclet - Quimper</h3>
+     <br>
+   </div>
+
+   <div class="expe-text">
+     <h4>2002-2004</h4>
+     <h2>BAC PRO<br/>
+       Artisanat et Métiers d’Art<br/>
+option communication graphique</h2>
+     <h4>mention bien</h4>
+     <h3>Lycée Saint-Pierre La Joliverie
+       <br/>St-Sébastien</h3>
+     <br>
+   </div>
+
+   <div class="expe-text">
+     <h4>2000-2002</h4>
+     <h2>CAP<br/>
+       Dessinateur d’exécution<br/>
+option communication graphique</h2>
+     <h3>Lycée Saint-Pierre La Joliverie
+       <br/>St-Sébastien</h3>
+     <br>
+   </div>
+
+
+
+
+  </div>
+
+
+</section>
+
+<section id="contact">
+
+
+  <div class="title-box-expe">
+    <div class="picto-contact"></div>
+    <h1>CONTACTEZ-MOI</h1>
+  </div>
+
+
+  <div class="text-box-expe">
+
+   <div class="expe-text">
+     <h2>Adresse</h2>
+     <h4>1, allée de la bédière<br/>
+     74240 GAILLARD</h4>
+     <br/>
+   </div>
+
+   <div class="expe-text">
+     <h2>Téléphone</h2>
+     <div class="link"><a href="tel:+33632321639">06 32 32 16 39</a></div>
+     <br/>
+   </div>
+
+
+   <div class="expe-text">
+     <h2>E-mail</h2>
+     <div class="link"><a href="mailto:olivierbretaud@hotmail.fr">olivierbretaud@hotmail.fr</a></div>
+     <br/>
+   </div>
+
+
+
+
+  </div>
+
+
+</section>
+
+
+
+
+</div>    <!-- fin de la div container -->
+
+</body>
+
+</html>
